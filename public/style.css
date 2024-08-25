@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.container{
+    background-color: #F5F5F5;
+}
+.inner-container{
+    background-color: #FAFAFA;
+}
+.middle::-webkit-scrollbar{
+    display: none;
+}
+.left-side{
+    width: 30%;
+
+}
+.middle{
+    width: 45%;
+}
+.right-side{
+    width: 25%;
+}
+.checks{
+    text-decoration: underline;
+}
+.btn{
+    background-color: #060c1b;
+    color: #C8E6C9;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: #0c1324;
+
+}
